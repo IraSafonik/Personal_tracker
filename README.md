@@ -18,12 +18,13 @@ The primary goal of this project is to:
 5. Analyze the results and derive actionable insights to improve daily productivity and health.
 
 ## 🛠️ Tools and Technologies
+- **CSV/Excel Files**: As data storage formats during data collection.
 - **SQL**: For storing and querying the collected data.
+- **DBeaver**: For managing the SQL database, running queries, and exploring the data.
 - **Python**: For data processing and analysis.
   - Libraries: `pandas`, `numpy`, `matplotlib`
-- **Tableau**: For creating visualizations and dashboards to interpret trends.
 - **Jupyter Notebooks**: For data exploration and manipulation using Python.
-- **CSV/Excel Files**: As data storage formats during data collection.
+- **Tableau**: For creating visualizations and dashboards to interpret trends.
 
 ## 🗂️ Data Sources
 - **Health App**: Provides data on steps, sleep hours, and active energy.
