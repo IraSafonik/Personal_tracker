@@ -65,3 +65,24 @@ CREATE TABLE health_data (
     notifications INT,
     pickups INT
 );
+```
+
+### 4️⃣ Step 4: Data Analysis in Python
+I used Python to analyze the data, calculate average daily steps, sleep hours, and identify any trends over time. I also explored correlations between metrics such as sleep and screen time, and the rate of day.
+
+### 5️⃣ Step 5: Data Visualization with Tableau
+I imported the cleaned and processed data into Tableau for visualization. This allowed me to create:
+
+Time-series charts to observe trends over time.
+Correlation heatmaps between different metrics (e.g., sleep and rate of day).
+Comparative bar charts to see changes in behavior over weeks.
+
+## 🌿 Results and Conclusion
+
+Through this project, I identified several key insights:
+- Sleep and Productivity: On days with more sleep, I tended to give higher daily ratings (rate of day).
+- Screen Time Impact: Higher screen time correlated with more notifications, but not necessarily with lower active energy or step count.
+- Consistency: I observed consistent patterns in steps taken per day, though variations occurred during weekends.
+
+Overall, this analysis provided useful insights into how my daily habits impact my well-being. It also served as a foundation to optimize my daily routines and maintain a balanced lifestyle.
+
