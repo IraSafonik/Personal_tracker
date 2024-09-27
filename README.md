@@ -31,15 +31,6 @@ The primary goal of this project is to:
 - **Hapday App**: Provides a daily rating (rate of day) from 1 to 100.
 - **Phone Usage Stats**: Provides data on screen time (hours), notifications (count), and pickups (count).
 
-Example of a single day's data:
-- Steps: 12,620
-- Sleep: 8 hr 5 min
-- Active Energy: 262 kcal
-- Rate of Day: 83/100
-- Screen Time: 8 hr 37 min
-- Notifications: 116
-- Pickups: 93
-
 ## 💻 Process and Steps
 
 ### 1️⃣ Step 1: Data Collection
