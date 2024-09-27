@@ -34,7 +34,7 @@ The primary goal of this project is to:
 ## 💻 Process and Steps
 
 ### 1️⃣ Step 1: Data Collection
-I manually exported data from health and phone usage apps on a daily basis. This data was stored in CSV format to ensure consistency.
+I manually exported data from health and phone usage apps daily. This data was stored in CSV format to ensure consistency.
 
 ### 2️⃣ Step 2: Data Cleaning and Processing
 Using Python and the `pandas` library, I cleaned the collected data:
@@ -46,15 +46,26 @@ Using Python and the `pandas` library, I cleaned the collected data:
 I used SQL to create a structured database for querying and deeper analysis. Example of creating the table:
 
 ```sql
+-- Creating a table for health data
 CREATE TABLE health_data (
-    date DATE,
-    steps INT,
-    sleep_hours FLOAT,
-    active_energy INT,
-    rate_of_day INT,
-    screen_time_hours FLOAT,
-    notifications INT,
-    pickups INT
+    date DATE PRIMARY KEY,
+    steps INTEGER,
+    active_energy_kcal DECIMAL(10, 2),  
+    sleep_duration TIME(0)
+);
+
+-- Creating a table for screen usage data
+CREATE TABLE screen_time_data (
+    date DATE PRIMARY KEY,
+    screen_time TIME(0),
+    notifications INTEGER,
+    pickups INTEGER
+);
+
+-- Creating a table to evaluate the day
+CREATE TABLE day_rate_data (
+    date DATE PRIMARY KEY,
+    day_rate INTEGER
 );
 ```
 
