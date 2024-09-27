@@ -43,7 +43,7 @@ Using Python and the `pandas` library, I cleaned the collected data:
 - Removed any null or inconsistent entries.
 
 ### 3️⃣ Step 3: Storing Data in SQL
-I used SQL to create a structured database for querying and deeper analysis. Example of creating the table:
+I used SQL to create a structured database for querying and deeper analysis:
 
 ```sql
 -- Creating a table for health data
